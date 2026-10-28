@@ -48,6 +48,10 @@ jobs:
         uses: actions/configure-pages@v6.0.0
         with:
           enablement: true
+        # Pages only needs to be enabled once by the repository owner
+        # (Settings -> Pages -> Source: GitHub Actions). Do not block the
+        # Jekyll build if that one-time enablement has not happened yet.
+        continue-on-error: true
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
