@@ -1,16 +1,14 @@
 ---
+layout: null
 permalink: /non-menu-page/
-title: "Page not in menu"
-author_profile: true
-redirect_from: 
-  - "/nmp/"
-  - "/nmp.html"
+sitemap: false
 ---
-
-This is a page not in the menu. You can use markdown in this page.
-
-Heading 1
-======
-
-Heading 2
-======
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+  <title>Junteng Liu</title>
+</head>
+<body></body>
+</html>
