@@ -10,7 +10,7 @@ baseurl: "/LJT-Homepage"
 repository: "iceswimmerlist19/LJT-Homepage"
 
 # Site Author
-# Blank fields are intentionally omitted or empty because the memory provides no values for them.
+# Optional profile fields with no provided value remain blank.
 author:
   avatar: ""
   name: "Junteng Liu"
@@ -34,6 +34,7 @@ publication_category:
 breadcrumbs: false
 words_per_minute: 160
 future: true
+unpublished: false
 read_more: "disabled"
 talkmap_link: false
 comments:

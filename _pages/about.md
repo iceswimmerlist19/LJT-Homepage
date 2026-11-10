@@ -37,7 +37,7 @@ Junteng Liu is a first-year PhD candidate at the HKUST NLP Group. He graduated f
 
 ## Publications
 
-All publications recorded in memory are listed here and on the [Publications]({{ '/publications/' | relative_url }}) page.
+The publications are listed below and on the [Publications]({{ '/publications/' | relative_url }}) page.
 
 1. **[SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond]({{ '/publication/synlogic/' | relative_url }})**
 
